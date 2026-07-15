@@ -170,11 +170,7 @@ img { max-width: 100%; display: block; }
   font-weight: 700;
   margin-bottom: 0.5rem;
   line-height: 1.1;
-  background: linear-gradient(90deg, #8a63c9 0%, #8a63c9 35%, #5ea8b8 65%, #45c4a8 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
+  color: var(--text);
 }
 
 .hero-tagline {
@@ -608,4 +604,7 @@ img { max-width: 100%; display: block; }
   .nav-links.open { right: 0; }
   .hamburger { display: flex; }
   .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-  .hamb
+  .hamburger.open span:nth-child(2) { opacity: 0; }
+  .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+}
+                                                         
