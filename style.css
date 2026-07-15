@@ -166,7 +166,7 @@ img { max-width: 100%; display: block; }
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #c9b8ff 0%, #8f88ff 35%, #4fd1b8 70%, #22c1c3 100%);
+  background: linear-gradient(90deg, var(--primary-light), var(--accent));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -605,4 +605,5 @@ img { max-width: 100%; display: block; }
   .hamburger { display: flex; }
   .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
   .hamburger.open span:nth-child(2) { opacity: 0; }
-  .hamburger.open span:nth-child(3) { transform: translateY(-7px) rota
+  .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+}
