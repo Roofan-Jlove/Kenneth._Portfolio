@@ -170,7 +170,7 @@ img { max-width: 100%; display: block; }
   font-weight: 700;
   margin-bottom: 0.5rem;
   line-height: 1.1;
-  background: linear-gradient(90deg, var(--primary-light), var(--accent));
+  background: linear-gradient(90deg, #c8a8dd, var(--accent));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -608,4 +608,4 @@ img { max-width: 100%; display: block; }
   .nav-links.open { right: 0; }
   .hamburger { display: flex; }
   .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-  .hamburger.open span
+  .hamburger.open span:nth-child(2)
