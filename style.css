@@ -157,20 +157,19 @@ img { max-width: 100%; display: block; }
 
 .hero-content { max-width: 720px; }
 
+.hero-greeting {
+  color: var(--primary-light);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.5px;
+}
+
 .hero-name {
   font-size: clamp(2.4rem, 6vw, 4.2rem);
   font-weight: 700;
   margin-bottom: 0.5rem;
-  line-height: 1.15;
-  color: var(--text);
-}
-
-.gradient-text {
-  background: linear-gradient(90deg, var(--primary-light), var(--accent));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
+  line-height: 1.1;
 }
 
 .hero-tagline {
@@ -607,3 +606,4 @@ img { max-width: 100%; display: block; }
   .hamburger.open span:nth-child(2) { opacity: 0; }
   .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 }
+                                                                               
